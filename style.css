@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Palette+Mosaic&display=swap");
+* {
+  background-color: #4285f4;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  transition: 0.25s;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+}
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*color:white;*/
+  color: white;
+}
+.title-section h1 {
+  font-size: 250%;
+  text-align: center;
+  text-decoration: underline;
+  /*font-family: 'Hurricane', cursive;*/
+}
+.square-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  width: 50%;
+  height: 25vh;
+  border-radius: 5vh;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.options button {
+  width: 40%;
+  margin: 5px;
+  border-radius: 2vh;
+  background-color: white;
+  border: 1px solid white;
+}
+.options button:hover {
+  background-color: white;
+}
+.stripe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+  color: white;
+  width: 100%;
+}
+button {
+  background-color: black;
+}
+.message {
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+  font-size: 200%;
+}
